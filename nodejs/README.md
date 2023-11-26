@@ -2,6 +2,14 @@
 
 This is a simple starter project that is a NodeJS Server that connects to a MongoDB Atlas Cluster and lists the databases inside that cluster.
 
+## Run
+
+To run the app:
+
+`node server.js`
+
+on your command line in the `nodejs` directory.
+
 ## References
 
 Project takes reference from this starter [structure](
