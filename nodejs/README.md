@@ -4,7 +4,11 @@ This is a simple starter project that is a NodeJS Server that connects to a Mong
 
 ## Run
 
-Replace the `uri` string in `server.js` with your MongoDB Atlas Cluster connection string.
+Preparatory work:
+
+1. Run `npm install` inside the `nodejs` directory
+
+2. Replace the `uri` string in `server.js` with your MongoDB Atlas Cluster connection string.
 
 Then to run the app:
 
@@ -13,6 +17,16 @@ Then to run the app:
 on your command line in the `nodejs` directory.
 
 The list of databases will appear on your console.
+
+To stop the app:
+
+`Ctrl+C` or `Cmd+C`
+
+## Debug
+
+After making changes to the app, you have to stop the server and restart it for the changes to take effect.
+
+Make sure you save your changes before doing the above.
 
 ## References
 
