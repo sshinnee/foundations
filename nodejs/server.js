@@ -1,4 +1,4 @@
-import { MongoClient } from 'mongodb';
+import { MongoClient } from 'mongodb'
 
 async function main() {
     const uri = 'mongodb+srv://<username>:<password>@<your-cluster-url>/?retryWrites=true&w=majority'
@@ -26,7 +26,7 @@ async function listDatabases(admin) {
         }
     )
  
-    console.log("Databases:")
+    console.log('Databases:')
     databasesList.databases.forEach(db => console.log(` - ${db.name}`))
 }
 
