@@ -22,3 +22,5 @@ https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb-how-to-get-connecte
 Some commands have to be amended with the latest [here](https://www.mongodb.com/community/forums/t/how-to-list-all-databases-in-atlas-using-nodejs-driver/222607).
 
 [MongoDB Command Reference](https://www.mongodb.com/docs/manual/reference/command/listDatabases/) for comparison.
+
+MongoDB's NodeJS [starter app](https://github.com/mongodb-university/atlas_starter_nodejs).
